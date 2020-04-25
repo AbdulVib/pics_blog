@@ -1,0 +1,19 @@
+.PhotoWall > a{
+    display: block;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.PhotoGrid{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}

@@ -1,0 +1,125 @@
+.Single{
+    border: 1px solid #d3d3d3;
+
+    width: 45%;
+    padding: 10px;
+    margin: 50px auto;
+    /* flex-grow: 1; */
+    text-decoration: none;
+}
+
+.Single > img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Single > p{
+    margin: 10px 0;
+    color: black;
+}
+
+.Single > button{
+    display: block;
+    margin: 0 auto;
+
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+    color: red;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* /////////////// */
+.Single-photo .Figure {
+    box-shadow: none;
+    margin: 0 2rem 0 0;
+    border: 0;
+    padding: 0;
+    flex: 1 0 60%;
+    max-width: 60%;
+   }
+   .Single-photo .Comments {
+    flex: 1 0 40%;
+    max-width: 40%;
+   }
+   .Single-photo .Photo {
+    width: 100%;
+    margin: 0;
+   }
+   .Photo {
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    margin-top: -2rem;
+    max-width: none;
+   }
+   .Comment{
+    width: 100%
+   }
+   .Comment p {
+    border-bottom: 1px solid #d3d3d3;
+    padding: 0.5rem 0;
+   }
+   .Comment-form input,
+   .Comment-form textarea {
+    width: 100%;
+    border: 0;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d3d3d3;
+    outline: none;
+    resize: vertical;
+   }
+   /* .addIcon {
+    background: url("https://image.flaticon.com/icons/svg/60/60740.svg") center no-repeat;
+    background-size: contain;
+    padding: 40px;
+    display: table;
+    margin: 20px auto;
+    border: none;
+   }
+   .button-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   button, .button {
+    border: 2px solid #f2f2f2;
+    background: none;
+    flex-basis: 48%;
+    display: inline-block;
+    line-height: 2;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+    transition: all 0.2s;
+    box-sizing: padding-box;
+    
+   }
+   button:hover,.button:hover, button:focus, .button:focus {
+    border-color: #00f;
+    outline: 0;
+   } */
+   .speech-bubble {
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    position: relative;
+   }
+   .comment-count {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black
+   }
